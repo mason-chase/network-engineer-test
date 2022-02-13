@@ -21,3 +21,7 @@ Please create Mikrotik's configuration for below routers in respective files:
 4. `Graylog` Create a docker-compose that boots Mikrotik [example](https://github.com/Graylog2/docker-compose/tree/main/cluster)
 
 5. `ntopng` Route traffic flows to `ntop` docker-compose service [example](https://github.com/frostasm/ntopng-docker)
+
+## Submit your result
+
+Please clone this repository in a new github repository in private mode and share with ID: mason-chase in private mode on github.com
