@@ -17,3 +17,7 @@ Please create Mikrotik's configuration for below routers in respective files:
 2. `MPLS Internal` peering to find best path between `buildings` and `ISP Gateways`.
 
 3. `VRRP` to allow customer to route through backup router.
+
+4. `Graylog` Create a docker-compose that boots Mikrotik [example](https://github.com/Graylog2/docker-compose/tree/main/cluster)
+
+5. `ntopng` Route traffic flows to `ntop` docker-compose service [example](https://github.com/frostasm/ntopng-docker)
