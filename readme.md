@@ -18,9 +18,13 @@ Please create Mikrotik's configuration for below routers in respective files:
 
 3. `VRRP` to allow customer to route through backup router.
 
-4. `Graylog` Create a docker-compose that boots Mikrotik [example](https://github.com/Graylog2/docker-compose/tree/main/cluster)
+4. `Graylog` Create a docker-compose that boots Graylog and collects Mikrotik's generated logs [example](https://github.com/Graylog2/docker-compose/tree/main/cluster)
 
 5. `ntopng` Route traffic flows to `ntop` docker-compose service [example](https://github.com/frostasm/ntopng-docker)
+
+- You can use Vagrant to boot Mikrotik CHR in four nodes (ISP-A and B, Building A and B) and fift node in vagrant is the Docker-compose host machine
+that collects the logs.
+
 
 ## Submit your result
 
